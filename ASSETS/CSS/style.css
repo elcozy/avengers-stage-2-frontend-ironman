@@ -304,8 +304,8 @@ h6 {
     grid-area: texts;
     background: #645143;
     display: grid;
-    grid-template-areas: "logo textd" "socials socials";
-    grid-template-rows: 1fr 30px;
+    grid-template-areas: "logo logo" "textd textd" "socials socials";
+    /* grid-template-rows: 1fr 30px; */
     grid-template-columns: 100px 1fr;
     /* padding: 10px; */
     position: relative;
@@ -318,6 +318,7 @@ h6 {
     font-size: 16px;
     line-height: 40px;
     text-align: center;
+    width: 100%;
   }
   .footerSocials {
     text-align: center;
@@ -349,7 +350,7 @@ h6 {
     opacity: 0.9;
   }
   .footerCopyright {
-    padding-top: 42px;
+    padding-top: 10px;
     font-size: 14px;
   }
   .service p {
