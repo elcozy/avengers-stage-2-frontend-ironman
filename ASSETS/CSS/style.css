@@ -1,6 +1,6 @@
 html,
 body {
-  position: fixed;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -290,7 +290,7 @@ h6 {
 
 @media screen and (min-width: 50px) and (max-width: 768px) {
   .page-banner {
-    width: 100vw;
+    /* width: 100vw; */
   }
   .footerBrown {
     display: grid;
@@ -307,7 +307,7 @@ h6 {
     grid-template-areas: "logo textd" "socials socials";
     grid-template-rows: 1fr 30px;
     grid-template-columns: 100px 1fr;
-    padding: 10px;
+    /* padding: 10px; */
     position: relative;
     width: 96%;
     height: 1fr;
@@ -360,11 +360,18 @@ h6 {
   }
   html,
   body {
-    position: fixed;
+    /* position: relative; */
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+  }
+  input {
+    padding: 0 !important;
+  }
+  form div {
+    grid-template-columns: 48% 48% !important;
+    column-gap: 4% !important;
   }
 }
 
