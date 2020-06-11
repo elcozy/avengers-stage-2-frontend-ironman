@@ -374,6 +374,9 @@ h6 {
     grid-template-columns: 48% 48% !important;
     column-gap: 4% !important;
   }
+  div.contact {
+    padding: 5% 3% !important;
+  }
 }
 
 /* FOOTER ENDS HERE  */
