@@ -121,3 +121,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
+.roomBooknow:hover {
+  background: rgba(255, 121, 19, 0.5);
+  cursor: pointer;
+}
